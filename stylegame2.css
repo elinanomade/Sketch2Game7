@@ -8,8 +8,8 @@ body {
   background: linear-gradient(
     to top,
     rgb(211, 212, 234),
-    rgb(20, 12, 136),
-    rgb(18, 15, 198)
+    rgb(7, 2, 76),
+    rgb(2, 2, 45)
   );
 }
 .page {
@@ -21,16 +21,17 @@ body {
   }
   
   #page header {
-    border: solid 1px black;
-    margin-bottom: 5px;
-    padding: 5px;
+   /* border: solid 1px black; */
+    margin-bottom: auto;
+    padding: auto;
+    align-items: center;
     
   }
   
   #page nav {
     border: solid 1px red;
-    margin-bottom: 5px;
-    padding: 5px;
+    margin-bottom: auto;
+    padding: auto;
   }
   
   #page article {
