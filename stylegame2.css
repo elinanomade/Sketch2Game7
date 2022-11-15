@@ -1,10 +1,8 @@
-
-
 body {
- /* display: flex;
- flex-direction: column;
+  /* display: flex;
  justify-content: center;
  align-items: center; */
+  flex-direction: column;
   background: linear-gradient(
     to top,
     rgb(211, 212, 234),
@@ -13,48 +11,54 @@ body {
   );
 }
 .page {
-    display: flex;
-   align-items: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 /*
 #page {
     width: 250px;
   }*/
-  
-  #page header {
-   /* border: solid 1px black; */
-    margin-bottom: auto;
-    padding: auto;
-    align-items: center;
-    
-  }
-  
-  #page nav {
-    border: solid 1px red;
-    margin-bottom: auto;
-    padding: auto;
-  }
-  
-  #page article {
-    display:table;
-    border-spacing: 2px; /* space between cells */
-    margin-bottom:5px;
-    border: solid 1px rgb(240, 240, 5);
-    width: 250px;
-  }
-  
-  #page article .row {
-    display: table-row; 
-  }
-  
-  #page article .cell {
-    display: table-cell;
-    width:50%;
-    padding: 5px;
-    margin:5px;
-    border:solid 1px rgb(238, 0, 255);  
-  }
-  
+.balls {
+  display: flex;
+}
+#page header {
+  /* border: solid 1px black; */
+  display: flex;
+  margin-bottom: auto;
+  padding: auto;
+  align-items: center;
+}
+
+#page nav {
+  border: solid 1px red;
+  margin-bottom: auto;
+  padding: auto;
+}
+
+#page article {
+  display: table;
+  border-spacing: 2px; /* space between cells */
+  border: solid 1px rgb(240, 240, 5);
+  width: 250px;
+  justify-content: center;
+  margin-bottom: auto;
+  padding: auto;
+}
+
+#page article .row {
+  display: table-row;
+}
+
+#page article .cell {
+  display: table-cell;
+  width: 50%;
+  padding: 5px;
+  margin: 5px;
+  border: solid 1px rgb(238, 0, 255);
+}
+
 h1 {
   text-align: center;
   font-family: "Pacifico", cursive;
@@ -80,17 +84,18 @@ h1 {
   flex-direction: row;
 } */
 
-.circleRed {
+.rotateCircle {
   background-color: green;
   /* position: absolute;
     left: 10px; */
   background-image: url(images/pikapika.jpg);
 }
-
+/*
 .bottom-wallpaper {
   width: 100%;
-}
+} */
+
 #page footer {
-    border: solid 1px black;
-    padding: 5px;
+  border: solid 1px black;
+  padding: 5px;
 }
